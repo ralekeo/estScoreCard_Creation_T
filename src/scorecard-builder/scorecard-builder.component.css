@@ -1,0 +1,51 @@
+/* scorecard-builder.component.css */
+.scorecard-builder {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.error-message {
+  background-color: #ffeeee;
+  border: 1px solid #ffaaaa;
+  color: #cc0000;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.perspective {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.perspective-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.metric {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.drag-handle {
+  cursor: move;
+  padding: 0 10px;
+}
+
+input {
+  margin-right: 10px;
+}
+
+button {
+  margin-left: 10px;
+}
+
+.total-score {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-top: 20px;
+}
