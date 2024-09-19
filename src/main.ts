@@ -2,9 +2,12 @@ import { Component, importProvidersFrom } from '@angular/core';
 import { bootstrapApplication } from '@angular/platform-browser';
 import { AppModule } from './app.module';
 
+
+
 @Component({
   selector: 'app-root',
   standalone: true,
+  imports: [AppModule],
   template: `
     <app-scorecard-builder></app-scorecard-builder>
   `,

@@ -34,6 +34,7 @@ export class ScorecardBuilderComponent {
   }
 
   removePerspective(index: number) {
+    alert('here');
     this.perspectives.splice(index, 1);
   }
 
